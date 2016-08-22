@@ -1,0 +1,29 @@
+{
+  "query": "how much are msft stocks",
+  "intents": [
+    {
+      "intent": "GetStockPrice",
+      "score": 0.999999046,
+      "actions": [
+        {
+          "triggered": true,
+          "name": "GetStockPrice",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "intent": "None",
+      "score": 0.08824456
+    }
+  ],
+  "entities": [
+    {
+      "entity": "msft",
+      "type": "Ticker",
+      "startIndex": 13,
+      "endIndex": 16,
+      "score": 0.891066849
+    }
+  ]
+}
